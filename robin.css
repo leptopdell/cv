@@ -1,0 +1,107 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ body{
+ background-color: rgb(219, 248, 191);
+ font-family: 'Times New Roman', Times, serif;
+
+ }
+ .container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+
+ }
+ header{
+
+
+ }
+ .profile-image{
+    width: 120px;
+    height: 120px;
+    border: solid 3px tomato;
+    border-radius: 50%;
+    float: left;
+
+ }
+ .header-bio{
+    float: left;
+    padding: 30px;
+ }
+ h1,h2,h3,h4,h5,h6{
+    color: rgb(241, 143, 14);
+ }
+ .email{
+    float: right;
+    padding: 30px;
+ }
+.email a{
+    text-decoration: none;
+}
+.email a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+/* Personal Section 
+*/
+.personal-section{
+
+}
+.content{
+   margin-bottom: 30px;
+
+}
+.left-div{
+ width: 30%;
+ float: left;
+}
+.right-div{
+width: 70%;
+float: left;
+}
+.common-hr{
+    border: solid black 1px ;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* education work */
+.edu-left{
+float: left;
+width: 45%;
+}
+.edu-right{
+    float: right;
+    width: 45%;
+
+
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
